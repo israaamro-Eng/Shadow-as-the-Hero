@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
 
         player2.Heal(true);
         Debug.Log(player2.playerName + " " + "health" + " " + player2.health);
+        
+        Player.ShowPlayerCount();
 
         
     }

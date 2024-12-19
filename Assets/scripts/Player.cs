@@ -13,6 +13,7 @@ public class Player
     {
         playerName=name;
         health=initialHealth;
+        playerCount=playerCount+1;
     }
 
     public void Heal(int amount)
